@@ -1,0 +1,258 @@
+body {
+    box-sizing: border-box;
+}
+
+
+.hobby-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30vw;
+    padding: 0% 5%;
+}
+
+.hobby-card-container__card {
+    width: 18vw;
+    height: 18vw;
+    background-color: #009294;
+    color: white;
+    border-radius: 29%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s;
+}
+
+.hobby-card-container__card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 5px solid #009294;
+    box-shadow: 0px 0px 8px 1px #009294;
+}
+
+.card-häkeln {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../img/crochet.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-hunde {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../img/pfotenhund.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-kochen {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../img/kochen.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-backen {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../img/backen.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* -------------------HOBBYS----------------------------------- */
+.hobby-img-container {
+    /* background-color: blanchedalmond; */
+    min-height: 45vw;
+    overflow: hidden;
+    padding: 5%;
+}
+
+.hobby-img-container__häkeln {
+    /* display: flex; */
+    display: none;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hobby-img {
+    filter: grayscale(1);
+    transition: transform 1s;
+}
+
+.hobby-img:hover {
+    filter: grayscale(0);
+    transform: scale(1.2);
+    z-index: 1;
+    box-sizing: border-box;
+    border: 5px solid #009294;
+    box-shadow: 0px 0px 8px 1px #009294;
+    cursor: pointer;
+}
+
+.hobby-häkeln-img01 {
+    width: 25%;
+}
+
+.hobby-häkeln-img04 {
+    width: 25%;
+}
+
+.hobby-häkeln-img05 {
+    width: 25%;
+}
+
+.hobby-häkeln-img07 {
+    width: 25%;
+}
+
+.hobby-häkeln-img09 {
+    width: 25%;
+}
+
+.hobby-häkeln-img10 {
+    width: 25%;
+}
+
+.hobby-häkeln-img12 {
+    width: 25%;
+}
+
+.hobby-häkeln-img13 {
+    width: 25%;
+}
+
+.hobby-häkeln-img14 {
+    width: 25%;
+}
+
+.hobby-häkeln-img16 {
+    width: 25%;
+}
+
+.hobby-häkeln-img17 {
+    width: 25%;
+}
+
+.hobby-häkeln-img19 {
+    width: 25%;
+}
+
+/* -------------------HUNDE----------------------------------- */
+.hobby-img-container__hunde {
+    /* display: flex; */
+    display: none;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hobby-hunde-img01 {
+    transition: transform 1s;
+}
+
+.hobby-hunde-img01:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 1;
+
+    box-sizing: border-box;
+    border: 5px solid #009294;
+    box-shadow: 0px 0px 8px 1px #009294;
+}
+
+.hobby-hunde-img_div {
+    width: 35%;
+    margin-top: 5%;
+    position: relative;
+}
+
+.hobby-hunde-img_div-txt {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    color: white;
+
+    bottom: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%);
+
+    box-sizing: border-box;
+    border: 5px solid #009294;
+    box-shadow: 0px 0px 8px 1px #009294;
+}
+
+.hobby-hunde-img_div-txt table {
+    padding: 5%;
+}
+
+
+.hobby-hunde-img01 {
+    width: 60%;
+    margin: 0% 20%;
+}
+
+.hobby-hunde-img02 {
+    width: 100%;
+}
+
+.hobby-hunde-img03 {
+    width: 100%;
+}
+
+
+
+/* ------------------KOCHEN------------------------------------ */
+.hobby-img-container__kochen {
+    /* display: flex; */
+    display: none;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hobby-kochen-img {
+    width: 30%;
+    margin-top: 2%;
+    filter: grayscale(1);
+    transition: transform 1s;
+
+}
+
+.hobby-kochen-img:hover {
+    filter: grayscale(0);
+    transform: scale(1.3);
+    z-index: 1;
+    box-sizing: border-box;
+    border: 5px solid #009294;
+    box-shadow: 0px 0px 8px 1px #009294;
+    cursor: pointer;
+}
+
+/* -------------------BACKEN----------------------------------- */
+.hobby-img-container__backen {
+    /* display: flex; */
+    display: none;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hobby-backen-img {
+    width: 30%;
+    margin-top: 2%;
+    filter: grayscale(1);
+    transition: transform 1s;
+
+}
+
+.hobby-backen-img:hover {
+    filter: grayscale(0);
+    transform: scale(1.3);
+    z-index: 1;
+    box-sizing: border-box;
+    border: 5px solid #009294;
+    box-shadow: 0px 0px 8px 1px #009294;
+    cursor: pointer;
+}

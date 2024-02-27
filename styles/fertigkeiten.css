@@ -1,0 +1,9 @@
+.fertigkeiten-container {
+    min-height: 30vw;
+    padding: 2% 10%;
+    /* position: relative; */
+}
+
+.fertigkeiten-container h3 {
+    color: #009294;
+}

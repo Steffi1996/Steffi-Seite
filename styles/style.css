@@ -1,0 +1,105 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.header-container {
+
+    position: relative;
+    height: 45vw;
+    overflow: hidden;
+}
+
+.header__img {
+    position: absolute;
+    top: 9%;
+    right: 5%;
+}
+
+.header__img img {
+    width: 30vw;
+}
+
+
+.header__txt {
+    width: 55vw;
+    height: 6vh;
+
+    position: absolute;
+    top: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #009294;
+    color: white;
+}
+
+.header__txt_aufbau {
+    top: 53%;
+    width: 62vw;
+    height: 8vh;
+}
+
+.header__nav-container {
+    width: 100vw;
+    height: 6vh;
+
+
+    position: absolute;
+    bottom: 0%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-around; */
+
+    background-color: white;
+}
+
+.header__nav-container a {
+    width: 16.66%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.header__nav-container div {
+    /* height: 100%;*/
+    /* width: 16.66%; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s;
+
+
+    /* background-color: blue; */
+}
+
+.header__nav-container div:hover {
+    background-color: #009294;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* --------------SECTION ICH--------------------------- */
+
+.ich-container {
+    min-height: 30vw;
+    padding: 2% 5%;
+}
+
+.ich-container h3 {
+    color: #009294;
+}
+
+.ich-container p {
+    color: #ffffff;
+    /* position: absolute;
+    float: right;
+    max-width: 55%; */
+    text-align: justify;
+}

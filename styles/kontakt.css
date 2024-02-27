@@ -1,0 +1,14 @@
+.kontakt-container {
+    min-height: 30vw;
+    padding: 2% 5%;
+    /* position: relative; */
+}
+
+.kontakt-container h3 {
+    color: #009294;
+}
+
+.kontakt-container a {
+    text-decoration: none;
+    color: white;
+}

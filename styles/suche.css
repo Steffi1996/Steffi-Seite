@@ -1,0 +1,22 @@
+.suche-container {
+    min-height: 30vw;
+    padding: 2% 5%;
+}
+
+.suche-container h3 {
+    color: #009294;
+}
+
+.suche-container p {
+    color: #ffffff;
+    /* position: absolute; */
+    /* float: right;
+    max-width: 55%; */
+    text-align: justify;
+}
+
+/* .suche-container-img {
+    position: relative;
+    width: 35%;
+    float: right;
+} */

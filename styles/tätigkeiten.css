@@ -1,0 +1,23 @@
+.tätigkeiten-container {
+    min-height: 30vw;
+    padding: 2% 5%;
+    /* position: relative; */
+}
+
+.tätigkeiten-container h3 {
+    color: #009294;
+}
+
+.tätigkeiten-container p {
+    color: #ffffff;
+    position: absolute;
+    float: right;
+    max-width: 55%;
+    text-align: justify;
+}
+
+.tätigkeiten-container-img {
+    position: relative;
+    width: 35%;
+    float: right;
+}
